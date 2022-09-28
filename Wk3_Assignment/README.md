@@ -10,7 +10,7 @@ Prototype Link: https://jjjcho92.github.io/Connections_Lab/Wk3_Assignment/
 
 What's in this draft: 
 
-1. Call in the data, showing a pair randomly (in real game the speed won't be shown when playing ofc)
+1. Call in the data, showing a random pair each time (in real game the speed won't be shown when playing ofc)
 2. Basic layout
 
 
