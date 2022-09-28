@@ -1,0 +1,66 @@
+body {
+    background-color: #fad390;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 0px;
+}
+
+section {
+    padding: 10px 10px 40px 10px;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+
+.project_heading {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.game_container {
+    display: flexbox;
+    flex-flow: row nowrap;
+    text-align: center;
+
+}
+
+.country_name_1 {
+
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #60a3bc;
+    background-color: #82ccdd;
+    padding: 80px 100px;
+    margin: 20px auto;
+}
+
+.country_name_2 {
+
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #60a3bc;
+    background-color: #82ccdd;
+    padding: 80px 100px;
+    margin: 20px auto;
+
+}
+
+h1 {
+    font-size: 80px;
+    color: #b71540;
+
+}
+
+h2,
+h3 {
+    color: #1e3799;
+}
+
+/* .hide {
+    display: none;
+}
+
+.show:hover + .hide {
+    display: block;
+
+} */
