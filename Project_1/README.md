@@ -1,2 +1,2 @@
 
-https://jjjcho92/github.io/Connections_Lab/Project_1 
+https://jjjcho92.github.io/Connections_Lab/Project_1/
