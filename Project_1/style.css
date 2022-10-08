@@ -33,8 +33,14 @@ section {
         8px 7px 0px #5dabcd;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .game_container {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     height: 120vh;
     width: 100vw;
@@ -47,15 +53,6 @@ section {
     z-index: 3;
 }
 
-@media (max-width: 800px) {
-    .project_heading {
-        flex-direction: column;
-    }
-    .card {
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-  }
 
 .card {
     /* border: 5px solid red; */
@@ -70,6 +67,13 @@ section {
     padding: 20px;
   }
 
+  .button {
+    position: relative;
+    margin: 350px 45%;
+    padding: 10px;    
+    flex-direction: row;
+    z-index: 200;
+}
 .country_name_1 {
     background-color: #82ccdd;
     width: 50%;
@@ -80,12 +84,6 @@ section {
     flex-direction: column;
     line-height: 40px;
 } 
-/* 
-.cardFront > img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-  } */
 
   .cardContent {
     position: relative;
@@ -144,58 +142,11 @@ section {
   }
 
 
-/* .game_container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 3;
-  } */
-
-  
-/* .country_name_1:hover, .country_name_2:hover{
-    opacity: 0.8;
-} */
-
-/* .country_name_1 p {
-    line-height: 2;
-    display: inline-block;
-    vertical-align: middle;
-} */
-/* 
-.country_name_2 {
-    background-color: #5dabcd;
-    width: 50%;
-    height: 50vh;
-    padding: 20px;
-    border: 2px solid #edde9c;
-    display: inline-block;
-    flex-direction: column;
-    text-align: center;
-    line-height: 40px;
-} */
-
-/* .country_name_2 p {
-    line-height: 2;
-    display: inline-block;
-    vertical-align: middle;
-}  */
-
-/* #country1 #country2 {
-    margin: auto;
-} */
 
 #countryflag1, #countryflag2 {
     font-size: 120px;
 }
 
-/* .game_container:focus + h3{
-    display:block;
-    } */
 
 h1 {
     text-align: center;
@@ -205,20 +156,3 @@ h1 {
 }
 
 
-.button {
-    position: relative;
-    margin: 50px;
-    padding: 10px;
-    display: block;
-    flex-direction: row;
-    tex
-}
-
-/* .hide {
-    display: none;
-}
-
-.show:hover + .hide {
-    display: block;
-
-} */
