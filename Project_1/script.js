@@ -76,5 +76,8 @@ window.addEventListener('load', function () {
 
 
         })
+        // function refreshPage(){
+        //     window.reload();
+        // } 
 })
 
